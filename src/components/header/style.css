@@ -1,0 +1,9 @@
+.main_head_div{
+    height: 60px;
+    background-color: rgb(240, 237, 204);
+}
+.main_head_div>h2{
+    /* margin-top: 20px ;/ */
+    padding: 13px 30px;
+    color:rgb(35, 35, 158);
+}
