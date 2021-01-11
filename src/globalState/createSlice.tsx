@@ -8,7 +8,7 @@ const firtSlice = createSlice({
 
 
   reducers: {
-    addItem: (state, action:any) => {
+    addItem: (state, action) => {
            
       Products.list.filter((val)=>{
         if(val.id===action.payload.id){
