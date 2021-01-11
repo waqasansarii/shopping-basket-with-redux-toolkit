@@ -10,8 +10,9 @@ const firtSlice = createSlice({
   reducers: {
     addItem: (state: any, action) => {
            
-      Products.list.map((val)=>{if(val.id===action.payload.id){
-        val.bool=true
+      Products.list.map((val)=>{
+        if(val.id===action.payload.id){
+       return val.bool=true
       }})
 
       state.basket = [action.payload,...state.basket]
@@ -19,7 +20,7 @@ const firtSlice = createSlice({
     deleteItem: (state, action) => {
 
       Products.list.map((val)=>{if(val.id===action.payload.id){
-        val.bool=false
+      return  val.bool=false
       }})
 
       let filter: any = state.basket.filter((val) => val.id !== action.payload.id)
