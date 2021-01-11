@@ -1,5 +1,4 @@
 import {configureStore} from '@reduxjs/toolkit'
-import { DefaultRootState } from 'react-redux'
 import {listReducer} from '../globalState/createSlice'
 
 

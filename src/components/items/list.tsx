@@ -1,11 +1,9 @@
-import React from 'react'
 import {useDispatch} from 'react-redux'
 import {addItem} from '../../globalState/createSlice'
 import {useSelector} from 'react-redux'
 import {Products} from '../../globalState/initialState'
 import {RootState} from '../../store/store'
 import './style.css'
-import Basket from '../basket/basket'
 
 const MyList = () => {
     const dispatch = useDispatch()
