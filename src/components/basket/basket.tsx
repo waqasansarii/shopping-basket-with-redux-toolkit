@@ -3,7 +3,6 @@ import { useSelector,useDispatch } from 'react-redux'
 import DeleteIcon from '@material-ui/icons/Delete';
 import { RootState } from '../../store/store'
 import {deleteItem} from '../../globalState/createSlice'
-import {state} from '../../types/types'
 import './style.css'
 
 const Basket = () => {

@@ -1,13 +1,13 @@
 import React from 'react';
 import {MainList} from './components/items/index'  
-import Main_Header from './components/header';
+import MainHeader from './components/header';
 import './App.css';
 import MainBasket from './components/basket';
 
 function App() {
   return (
     <div >
-      <Main_Header />
+      <MainHeader />
       <div className='app'>
       <MainList />
       <MainBasket />

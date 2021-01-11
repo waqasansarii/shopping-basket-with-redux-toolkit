@@ -2,7 +2,7 @@ import React from 'react'
 import { Header } from './header'
 
 
-const Main_Header = () =>{
+const MainHeader = () =>{
 return(
     <div>
       <Header />
@@ -10,4 +10,4 @@ return(
 )
 }
 
-export default Main_Header
+export default MainHeader
