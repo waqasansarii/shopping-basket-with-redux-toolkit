@@ -13,7 +13,7 @@ const firtSlice = createSlice({
       Products.list.filter((val)=>{
         if(val.id===action.payload.id){
         val.bool=true
-        
+        return val
       }})
       state.basket = [action.payload,...state.basket]
     },
@@ -21,6 +21,7 @@ const firtSlice = createSlice({
 
       Products.list.filter((val)=>{if(val.id===action.payload.id){
         val.bool=false
+        return val
       }})
 
       let filter: any = state.basket.filter((val) => val.id !== action.payload.id)
